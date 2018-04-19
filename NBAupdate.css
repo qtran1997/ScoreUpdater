@@ -1,0 +1,250 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    height:100%;
+    width:100%;
+    min-width:1280px !important;
+    min-height:720px !important;
+    /*    overflow-x:hidden;*/
+}
+body{
+    height:100%;
+    width:100%;
+    min-width:1280px !important;
+    min-height:720px !important;
+    overflow-x:hidden;
+    position:relative;
+}
+
+/*////////////////////////NAV BAR/////////////////////////*/
+nav{
+
+}
+#top-logo{
+    height:98px;
+    width:150px;
+    float: left !important;
+}
+.nav{
+    /*    float:right !important; */
+    height:10vh !important;
+    min-height:80px;
+    background-color:#5c2d91;
+    text-align:center;
+    border-bottom:2px black solid;
+}
+
+
+.nav-item{
+    margin:auto;
+}
+
+
+.nav-item a{
+    float:right !important;
+    color:white;
+    text-decoration-line: none;
+}
+
+.nav-button{
+    text-decoration-line: none;
+    color: white;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#NFL a:hover {
+    color: #ED174C;
+}
+
+#NBA a:hover {
+    color: #006BB6;
+}
+
+#GOLF a:hover {
+    color: #FDB927;
+}
+
+#ESPORTS a:hover {
+    color: #AAAAAA;
+}
+
+
+/*////////////////////////CONTAINER/////////////////////////*/
+
+#container{
+    height:90vh;
+    min-height:90vh;
+    background-color:blue;
+    margin:0px;
+}
+
+.row{
+    height:100%;
+}
+
+#big-column{
+    /*    background-color:white;*/
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    display:inline-block;
+    /*    border: 2px black solid;*/
+    /*    border-right: none;*/
+    text-align:center;
+    background-color:#FDB927;
+}
+
+
+#logos{
+    height:10vh;
+
+}
+
+#logos *{
+    display:inline-block;
+}
+
+#small-column{
+    background-color:#006BB6;
+    height:100%;
+    width:100%;
+    /*    margin:0;*/
+    padding:0;
+    display:inline-block;
+    border-left: 2px black solid;
+    overflow-y:auto;
+}
+
+.game-box{
+    background-color:white;
+    height: 100px;
+    border: 2px black solid;
+    border-left:none;
+    width:100%;
+    text-align:center;
+    /*    padding:.5vw;*/
+    /*    margin:0 !important;*/
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.game-box:hover{
+    cursor: pointer;
+    color: white;
+    background-color:#ED174C;
+}
+
+.team-names{
+    display:block;
+    width:100%;
+    min-height:25px;
+    /*    padding:0 25px;*/
+}
+
+.team1{
+    width:49%;
+    display:inline-block;
+    margin:auto;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+    padding-right:10px;
+    /*    float:left;*/
+}
+
+#big-column .team1{
+    height:450px;
+}
+#big-column .team2{
+    height:450px !important;
+}
+
+#big-column .team-names p{
+    font-size:100px;
+    color:white;
+    text-shadow:.4px .4px 15px black;
+}
+#big-column .team-scores p{
+    font-size:90px;
+    color:white;
+    text-shadow:.4px .4px 15px black;
+}
+.team2{
+    width:49%;
+    display:inline-block;
+    margin:auto;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+    padding-left:10px;
+    /*    float:right;*/
+}
+
+.team-scores{
+    display:block;
+    width:100%;
+    min-height:25px;
+    /*    padding:0 25px;*/
+}
+#big-column .team-scores{
+    margin-top:-150px;
+}
+
+.score1{
+    width:42%;
+    display:inline-block;
+    margin:auto;
+    font-weight:bold;
+    text-align: right;
+    padding-right:10px;
+    font-size:30px;
+    /*    float:left;*/
+}
+.score2{
+    width:42%;
+    display:inline-block;
+    margin:auto;
+    font-weight:bold;
+    text-align: left;
+    padding-left:10px;
+    font-size:30px;
+}
+.hyphen{
+    /*    width:49%;*/
+    display:inline-block;
+    margin:auto;
+    font-size:18px;
+    font-weight:bold;
+    text-align: left;
+    padding-left:10px;
+    font-size:36px;
+}
+
+
+/*////////////////////////FOOTER/////////////////////////*/
+footer{
+    height:150px;
+    background-color:#ED174C;
+    border-top: 2px black solid;
+    bottom:0;
+
+}
+
+footer{
+    font-size: 70px;
+    font-family: Snell Roundhand; 
+    font-style:cursive;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+} 
